@@ -14,9 +14,13 @@ Este projeto captura ou simula tráfego de rede direcionado a um servidor-alvo, 
 ## Estrutura do repositório
 /
 ├─ capture_to_csv.py # script principal (simulate / live)
+
 ├─ sample_output.csv # (opcional) CSV de exemplo gerado por simulate
+
 ├─ README.md # este arquivo
+
 ├─ RELATORIO_TECNICO.md # relatório técnico (1-2 páginas)
+
 ├─ excel_instrucoes.md # (opcional) instruções detalhadas para planilha
 
 O script usa --server-ip apenas para decidir quais pacotes (ou eventos simulados) pertencem ao servidor que você está "monitorando".
@@ -29,6 +33,7 @@ Entre na pasta do projeto.
 Ative o venv (opcional).
 
 Rode o script no modo simulate por N segundos:
+
 Para gerar dados de teste e criar o arquivo `output.csv`, rode o seguinte comando no terminal (estando na pasta do projeto):
 
 ```bash
