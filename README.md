@@ -29,6 +29,10 @@ Entre na pasta do projeto.
 Ative o venv (opcional).
 
 Rode o script no modo simulate por N segundos:
+Para gerar dados de teste e criar o arquivo `output.csv`, rode o seguinte comando no terminal (estando na pasta do projeto):
+
+```bash
+python capture_to_csv.py --server-ip 192.168.0.5 --mode simulate --duration 120 --output output.csv
 
 python capture_to_csv.py \
   --server-ip 192.168.0.5 \
