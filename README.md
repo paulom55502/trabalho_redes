@@ -80,3 +80,15 @@ Adicionar Segmentação de dados:
 Clique na Tabela Dinâmica, em seguida Dados → Segmentação de dados.
 Escolha cliente_ip e/ou protocolo. Os botões criados permitem filtrar interativamente o dashboard.
 (obs: eu usei o google planilhas pois nao tenho acesso ao excel pois não comprei o pacote office.)
+
+Para fazer os testes de segurança:
+Use esse comando para instalar os verificadores 
+Comando:
+``python -m pip install flake8 bandit``
+Primeiro use esse comando 
+``python -m flake8 capture_to_csv.py``
+que gera uma lista de avisos e sugestões de melhoria para o seu código.
+O segundo comando e esse
+``python -m bandit capture_to_csv.py`` 
+que analisa o codigo-fonte do Python sem executá-lo e procura por vulnerabilidades de segurança.
+
