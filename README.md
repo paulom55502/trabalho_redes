@@ -13,26 +13,24 @@ Este projeto captura ou simula tráfego de rede direcionado a um servidor-alvo, 
 
 ## Estrutura do repositório
 
-├─ capture_to_csv.py # script principal (simulate / live)
+├─ capture_to_csv.py 
 
 ├── test_capture.py  
 
-├─ sample_output.csv # (opcional) CSV de exemplo gerado por simulate
+├─ sample_output.csv 
 
-├─ README.md # este arquivo
+├─ README.md 
 
-├─ RELATORIO_TECNICO.md # relatório técnico (1-2 páginas)
+├─ RELATORIO_TECNICO.md 
 
-├─ excel_instrucoes.md # (opcional) instruções detalhadas para planilha
+├─ excel_instrucoes.md 
 
 O script usa --server-ip apenas para decidir quais pacotes (ou eventos simulados) pertencem ao servidor que você está "monitorando".
 No modo simulate, use um IP fictício da sua rede local, por exemplo 192.168.0.5 ou 10.0.0.5.
 
-Executando o script (modo simulate)
+Executando o script 
 
 Entre na pasta do projeto.
-
-Ative o venv (opcional).
 
 Rode o script no modo simulate por N segundos:
 
