@@ -15,6 +15,8 @@ Este projeto captura ou simula tráfego de rede direcionado a um servidor-alvo, 
 /
 ├─ capture_to_csv.py # script principal (simulate / live)
 
+├── test_capture.py  
+
 ├─ sample_output.csv # (opcional) CSV de exemplo gerado por simulate
 
 ├─ README.md # este arquivo
@@ -85,10 +87,20 @@ Para fazer os testes de segurança:
 Use esse comando para instalar os verificadores 
 Comando:
 ``python -m pip install flake8 bandit``
+
 Primeiro use esse comando 
 ``python -m flake8 capture_to_csv.py``
 que gera uma lista de avisos e sugestões de melhoria para o seu código.
+
 O segundo comando e esse
 ``python -m bandit capture_to_csv.py`` 
 que analisa o codigo-fonte do Python sem executá-lo e procura por vulnerabilidades de segurança.
+
+Para fazer testes unitarios primeiro baixe a ferramenta que permeite a utilizaçao do cofigo para fazer os testes
+Comando
+''python -m pip install pytest''
+
+Depois use o comando 
+''python -m pytest -v''
+
 
