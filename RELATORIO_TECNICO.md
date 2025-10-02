@@ -1,5 +1,5 @@
 
--Relatório Técnico — Dashboard de Análise de Tráfego (CSV + Google Planilhas)
+-Relatório Técnico — Dashboard de Análise de Tráfego 
 1. Objetivo
 
 Construir um sistema que capture e agregue tráfego de rede direcionado a um servidor-alvo e permita visualização interativa em janelas de 5 segundos, apresentando volume por IP cliente e detalhamento por protocolo. Para este trabalho optou-se por gerar um CSV que é importado no Google Planilhas (interface cliente).
@@ -8,11 +8,11 @@ Construir um sistema que capture e agregue tráfego de rede direcionado a um ser
 
 O sistema é composto por:
 
-capture_to_csv.py (script Python):
+capture_to_csv.py :
 
 Modo simulate: gera eventos sintéticos representando pacotes entre clientes e servidor.
 
-Modo live: (opcional) captura pacotes reais via pcap/scapy (requer sudo).
+Modo live: captura pacotes reais via pcap/scapy.
 
 Agrega eventos em memória por janelas fixas e persiste agregados parciais/definitivos em output.csv.
 
