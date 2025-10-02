@@ -12,7 +12,7 @@ Este projeto captura ou simula tráfego de rede direcionado a um servidor-alvo, 
 ---
 
 ## Estrutura do repositório
-/
+
 ├─ capture_to_csv.py # script principal (simulate / live)
 
 ├── test_capture.py  
